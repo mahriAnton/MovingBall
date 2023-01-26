@@ -11,12 +11,13 @@ public class Ball {
         y =(int)(Math.random()*500);
         size = 20;
        //size = (int)(Math.random()*50)+5;
-        xSpeed = (int)(Math.random()*5)+1;
-        ySpeed = (int)(Math.random()*5)+1;
+        xSpeed = (int)(Math.random()*10)+3;
+        ySpeed = (int)(Math.random()*10)+3;
         color = new Color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     }
 
     public void drawBall(Graphics pony){
+        pony.setColor(color);
         pony.fillOval(x,y,size,size);
     }
 
@@ -39,7 +40,7 @@ public class Ball {
         }
     }
     public void moveDown(JPanel a){
-        if(y <= a.getHeight()){
+        if(y <= a.getHeight()-size){
             y += ySpeed;
         }
     }

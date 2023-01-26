@@ -26,14 +26,14 @@ public class BallPanel extends JPanel{
 
                 if (key == 68 || key == 39){
                     //move ball to the right
-                    ball.moveRight(this);
+                    ball.moveRight(BallPanel.this);
                 } else if (key == 65 || key ==37){
-                    ball.moveLeft(this);
+                    ball.moveLeft(BallPanel.this);
                 } else if(key ==87 || key == 38){
                     ball.moveUp();
 
                 } else if(key ==83  || key == 40){
-                    ball.moveDown(this);
+                    ball.moveDown(BallPanel.this);
                 }
             }
 
