@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb015713-145f-4b9b-b1fb-112f40771694" name="Changes" comment="key">
-      <change beforePath="$PROJECT_DIR$/src/BallPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BallPanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="fb015713-145f-4b9b-b1fb-112f40771694" name="Changes" comment="its done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674753342215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="its done">
+      <created>1674753959274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674753959274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +108,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add another print statement" />
     <MESSAGE value="key" />
-    <option name="LAST_COMMIT_MESSAGE" value="key" />
+    <MESSAGE value="its done" />
+    <option name="LAST_COMMIT_MESSAGE" value="its done" />
   </component>
 </project>
