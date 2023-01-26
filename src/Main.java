@@ -9,13 +9,13 @@ System.out.println("Hi I'm on replit");
         myFrame.setSize(500,500);
 
         //create a panel
-        DrawPanel myPanel = new DrawPanel();
+       // DrawPanel myPanel = new DrawPanel();
         BallPanel myBall = new BallPanel();
 
         //add stuff to panel
 
         //and panel to frame
-        myFrame.add(myPanel);
+       // myFrame.add(myPanel);
         myFrame.add(myBall);
 
         //make frame visible

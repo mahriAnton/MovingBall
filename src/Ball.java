@@ -21,16 +21,16 @@ public class Ball {
     }
 
 
-    public void moveRight(){
+    public void moveRight(JPanel a){
         x+=xSpeed;
-        if(x>=500){
+        if(x>=a.getWidth()-size){
             x=0;
         }
     }
-    public void moveLeft(){
+    public void moveLeft(JPanel a){
         x -= xSpeed;
         if(x <= 0){
-            x=500;
+            x=a.getWidth();
         }
     }
     public void moveUp(){
@@ -38,8 +38,8 @@ public class Ball {
             y -= ySpeed;
         }
     }
-    public void moveDown(){
-        if(y <= 450){
+    public void moveDown(JPanel a){
+        if(y <= a.getHeight()){
             y += ySpeed;
         }
     }
